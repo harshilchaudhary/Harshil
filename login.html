@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<style>
+  
+.navbar1 {
+    background-color: rgb(252, 252, 252);
+    width: 1450px;
+    height: 70px;
+}
+
+.image {
+        width: 500px;
+        height: 80px;
+        margin-left: 500px;
+        margin-top: 80px;
+        
+        background-image: url(hh.png);
+        background-repeat: no-repeat;
+
+    }
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #0d280e;
+}
+
+.form3 {
+    margin-top: 100px;
+  border-radius: 5px;
+  background-color: #e6e4e4;
+  padding: 20px;
+}
+</style>
+
+<div class="form3">
+  <form action="/action_page.php">
+    <label for="fname">SGPA</label>
+    <input type="text" id="fname" name="SGPA" placeholder=" Expected SGPA">
+
+    <label for="lname">CGPA</label>
+    <input type="text" id="lname" name="CGPA" placeholder="Expected CGPA">
+
+    <label for="Year">Year</label>
+    <select id="Year" name="Year">
+      <option value="Choose">Choose </option>
+        <option value="1 st">1 st </option>
+        <option value="2 nd">2 nd </option>
+        <option value="3 rd">3 rd </option>
+        <option value="4 th">4 th </option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
+
